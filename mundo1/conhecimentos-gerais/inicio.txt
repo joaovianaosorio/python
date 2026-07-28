@@ -1,0 +1,14 @@
+inicio
+
+Os dados em Python, se forem mensagens, têm delimitadores especiais que são as aspas, podendo ser simples ou duplas, mas a maioria da comunidade utiliza aspas simples para a maioria das mensagens. Fora das aspas, nós temos os parênteses que devem abrangê-las. No Python 3.0, todos os comandos são funções e precisam de parênteses. 
+ex: 	print('Olá, Mundo!')
+
+Os números não precisam de aspas quando estamos fazendo operações, mas, se você quiser escrevê-los, será necessário.
+ex:	print(7+4)
+Na conta acima, o resultado será 11. Entretanto, podemos escrever de outra forma que não obterá o mesmo resultado. 
+ex: 	print('7'+'4')
+O resultado acima será 74. Para somar mensagens, nós podemos usar o "+", ou a ",", tem casos em que a vírgula funcionará melhor, existe diferença. Um caso em que daria certo seria:
+	print('Olá',5)
+O resultado seria Olá 5.
+
+No Python, você DEVE utilizar tudo em letras minúsculas, somente com exceção de estar entre aspas. No Python, toda variável é um OBJETO.
