@@ -12,3 +12,16 @@ O resultado acima será 74. Para somar mensagens, nós podemos usar o "+", ou a 
 O resultado seria Olá 5.
 
 No Python, você DEVE utilizar tudo em letras minúsculas, somente com exceção de estar entre aspas. No Python, toda variável é um OBJETO.
+
+Para registrar variáveis e as escrevê-las, você deve fazer o seguinte:
+- nome = 'João'
+(isso se lê "nome recebe 'João'")
+- idade = '21'
+- peso = '85'
+print(nome, idade, peso)
+
+Para interagirmos com o usuário, faríamos assim:
+- nome = input('Qual seu nome?')
+- peso = input('Qual seu peso?')
+- idade = input('Qual é sua idade?')
+print(nome, peso, idade)
