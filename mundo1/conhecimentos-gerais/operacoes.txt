@@ -1,0 +1,11 @@
+Operações em Python
+# / -> divisão
+# ** -> potência
+# // -> divisão inteira
+# % -> módulo (resto da divisão)
+
+# Ordem de procedência 
+# 1 - parênteses ( )
+# 2 - potência ** 
+# 3 - resto (%), divisão (/), divisão inteira (//), multiplicação (*)
+# 4 - soma (+) e subtração (-)

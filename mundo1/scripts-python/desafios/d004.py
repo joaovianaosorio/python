@@ -1,0 +1,11 @@
+# Número e seus tipos
+print('     Número e seus tipos')
+c = input('Digite alguma coisa: ')
+print(type(c))
+print(c.isspace())
+print(c.isalpha())
+print(c.isnumeric())
+print(c.isalnum())
+print(c.isupper())
+print(c.islower())
+print(c.istitle())
