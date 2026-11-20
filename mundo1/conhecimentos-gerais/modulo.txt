@@ -1,0 +1,21 @@
+Módulo (Biblioteca)
+
+Nós conseguimos introduzir bibliotecas em Python. Os programas em Python, por padrão, tem um número limitado de comandos. Isso funciona para que a linguagem seja rápida, os programas pequenos, não gaste memória e nem gastos adicionais sem necessidade. Se eu precisar de alguma funcionalidade, eu trago de fora e importo na minha programação.
+
+Para incluir alguma coisa em Python, nós usamos o comando import. Por exemplo, em uma programação onde nosso corpo é a máquina que precisa de mantimentos (alimentos) para funcionar, nós podemos fazer um "import(bebida)", trazendo assim todas as bebidas que tem. 
+
+Entretanto, nesse exemplo, nós podemos colocar todas as bebidas em cima de uma mesa e não bebê-las, tendo um desperdício, um gasto desnecessário. Portanto, se nós temos uma bebida em mente, nós podemos inverter o comando, ficando assim: "from > bebidas > import > Coca-Cola". 
+
+Essa "bebida", em Python, é chamada de módulo. De forma resumida, um módulo seria o que chamamos de biblioteca na linguagem C. Ele agrupa funções, classes e variáveis prontas para você reutilizar no seu código usando import (assim como o #include no C). A diferença principal é que, no Python, qualquer arquivo .py já é um módulo — você importa com import math ou from math import sqrt, e vários módulos juntos formam um pacote.
+
+A biblioteca "math" já vem quando você instala o pacote Python, ela só não vem importada nos programas. Ela traz algumas funcionalidades de matemática extras. Por exemplo, nós temos os comandos ceil (arredonda um número pra cima), floor (arredonda para baixo), trunc (corta os números após a vírgula), pow (potência), sqrt (raíz quadrada), factorial (fatorial), entre outras.
+
+Eu consigo ver quais bibliotecas eu posso importar no meu arquivo no site do Python.
+
+Você não pode nomear um arquivo com o mesmo nome de uma biblioteca que você quer importar. Por exemplo, se você colocar o nome do seu arquivo de "math.py", você terá que, de qualquer forma, importar a biblioteca math se você for a utilizá-la. Mas aí que acontece o problema. Quando você for colocar uma função do tipo "math.sqrt(x)", o seu código vai achar o seu arquivo "math.py" e não a biblioteca "math" de Python!
+
+Mas e se eu usar somente uma função? Por exemplo, "from math import sqrt" e usar "sqrt(x)", vai dar certo? Não! O Python coloca a pasta onde o script está na frente da busca de módulos. Ou seja, ele vai tentar buscar "sqrt" dentro do seu próprio arquivo "math.py" (que não tem sqrt definido), em vez de buscar no módulo math oficial do Python.
+
+PyPI = Python Package Index - índice de Pacotes Extras de Python. É uma lista de bibliotecas que podem ser importadas separadamente. Qualquer programador em Python pode criar uma biblioteca e disponibilizá-la para a comunidade utilizar. Você pode importar um módulo extra colocando "import 'nome da biblioteca' " e clicar na lampadazinha (lá aparece o baixar). 
+
+Ou, se você instalou usando um ambiente virtual (venv), podemos ir no terminal e escrever "pip install nome_da_biblioteca". Para desinstalar no terminal, fazemos "pip uninstall nome_da_biblioteca -y". O -y pula a confirmação (y/n).
