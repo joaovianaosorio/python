@@ -1,0 +1,5 @@
+nome = input('Digite seu nome completo: ').strip().title()
+nome_dividido = nome.split()
+print('Muito prazer em te conhecer!')
+print(f'Seu primeiro nome é {nome_dividido[0]}')
+print(f'Seu último nome é {nome_dividido[len(nome_dividido)-1]}')
