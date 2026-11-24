@@ -1,0 +1,26 @@
+Manipulação de Cadeias de Texto
+
+Frase = cadeia de caracteres (texto) = string. Em Python, toda cadeia de texto deve estar entre aspas duplas ou simples. A string é guardada dentro de um objeto, um espaço contínuo na memória RAM. Cada caractere de uma frase é colocada dentro de uma caixinha dentro desse espaço contínuo na memória RAM. O primeiro caractere tem o índice 0.
+
+Para fatiar uma string, nós usamos os colchetes []. Colchetes são os identificadores de uma estrutura de dados em Python chamada lista. Sendo assim, para fatiar uma string, nós usamos "str[índice]".
+
+No exemplo, frase = 'Curso em Vídeo'. O len(frase) seria igual à 21, pois o tamanho da string tem 21 caracteres.
+
+Em frase.count('o'), o Python nos dará quantos "o" (minúsculo) tem na string "frase". Deve ser colocado entre aspas, pois se não for, estaria contando como se fosse uma variável. Em frase.count('o', 0, 13), ele contaria quantos "o" tem entre o caractere de índice 0 e o caractere de índice 13. Agora, frase.find('deo'), ele encontra onde o trecho que você quer começa. Nesse caso, começaria na posição 11. Se usássemos frase.find('Android'), ele retornaria -1, pois a palavra "Android" não foi encontrada.
+
+Temos também o operador "in". Nele, nós podemos procurar alguma palavra em uma string. Por exemplo, 'Curso' in frase nos retornaria "True".
+
+
+Comandos que a explicação está nos códigos:
+
+len(frase)
+frase.replace
+frase.upper
+frase.lower
+frase.capitalize()
+frase.title()
+frase.strip()
+frase.rstrip() - Muitas funções dentro do Python que tratam de strings tem a variação "r".
+frase.lstrip()
+frase.split
+'-'.join(frase)
