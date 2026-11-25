@@ -1,0 +1,34 @@
+Cores no terminal
+
+ANSI - padrão de normalização internacional que contém "escape sequence". Sempre você quiser representar uma cor em Python, você começará com "\033[style;text;backm". Style = estilo do texto; text = cor do texto; back = background-color. Na verdade, você pode colocar as definições da fonte em qualquer ordem, pois existe diferença númerica entre o estilo do texto, cor dele e cor de fundo.
+
+Códigos de Style
+0 - None - Ou não coloca 0 e nem nada.
+1 - Bold
+4 - Underline
+7 - Negative - Inverte
+Existem outros códigos de estilo para Python, mas esses funcionam melhor no terminal.
+
+Códigos de Text
+30 - Branco
+31 - Vermelho
+32 - Verde
+33 - Amarelo
+34 - Azul
+35 - Lilás
+36 - Ciano
+37 - Cinza
+97 - Branco brilhante
+Para colocar mais cores, você deve importar uma biblioteca.
+
+Códigos de Background-Color
+40 - Branco
+41 - Vermelho
+42 - Verde
+43 - Amarelo
+44 - Azul
+45 - Lilás
+46 - Ciano
+47 - Cinza
+
+\033[m - volta à configuração padrão do Terminal.
